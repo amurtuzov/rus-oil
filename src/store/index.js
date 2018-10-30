@@ -5,8 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
 	state: {
-		toDos: [
-			{ name: 'lul', done: false }
+		tableData: [
+			{ text: 1 },
+			{ text: 2 },
+			{ text: 3 },
+			{ text: 4 },
+			{ text: 5 }
 		],
 		test: []
 	},
@@ -40,14 +44,6 @@ export default new Vuex.Store({
 				}
 			})
 		},
-		// filterDone({toDos}) {
-		// 	let filteredTodos = toDos.filter(function(item) {
-		// 		return item.done == true;
-		// 	})
-		// 	toDos.length = 0;
-		// 	toDos.push(...filteredTodos);
-		// }
-
 	},
 
 	actions: {
