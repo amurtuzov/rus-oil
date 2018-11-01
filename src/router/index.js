@@ -7,21 +7,5 @@ import Contacts from '../components/Contacts.vue'
 Vue.use(VueRouter);
 
 export default new VueRouter({
-routes: [
-  { 
-  	path: '/',
-  	name: 'about-me',
-  	component: About_me 
-  },
-  { 
-  	path: '/Projects',
-  	name: 'projects',
-  	component: Projects 
-  },
-  { 
-  	path: '/Contacts',
-  	name: 'contacts', 
-  	component: Contacts 
-  }
-]
+routes: []
 });
