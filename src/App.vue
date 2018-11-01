@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-    <Main/>
+    <Datatable/>
   </div>
 
 </template>
 
 
 <script>
-import Main from './components/Main.vue'
-
-
-
+import Datatable from './components/Datatable.vue'
 
 
 export default {
@@ -20,11 +17,11 @@ export default {
     }
   },
     components: {
-    Main,
+    Datatable,
   },
 }
 </script>
 
 <style lang="scss">
-
+  @import './scss/app.scss'
 </style>

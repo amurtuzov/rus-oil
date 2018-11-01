@@ -1,0 +1,48 @@
+.datatable_wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.datatable {
+  margin-bottom: 15px;
+}
+
+.datatable td {
+	border: 1px solid black;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.datepicker {
+  height: 42px;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 150px;
+}
+.success_save {
+	color: green;
+	margin: 15px 0;
+  margin-top: 0;
+}
+
+.save_button {
+  margin: 15px 0;
+  margin-top: 0;
+  display: block;
+  padding: 0 5px;
+  min-width: 120px;
+  box-sizing: border-box;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  font: 12px Tahoma;
+  line-height: 40px;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #2ecc71;
+  color: #ecf0f1;
+}
